@@ -1,0 +1,73 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+body{
+    background-color: #323232;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #424242;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .text-container{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.text-container .text{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+#form .form-text{
+    align-self: center;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+#form .input{
+    width: 100px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #323232;
+    color: white;
+    border-radius: 100px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#form .btn{
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: #323232;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#form .btn:hover{
+    background-color: #f2f2f2;
+    color: #323232;
+}
+
+
